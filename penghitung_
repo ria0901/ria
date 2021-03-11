@@ -1,0 +1,47 @@
+import random
+benar = 0
+
+a = random.randint(0,100)
+b = random.randint(0,100)
+c = a + b
+jawaban = (int(input('{} + {} ='.format(a,b))))
+if jawaban == c :
+    benar +=1 
+else :
+    benar+= 0
+
+
+a = random.randint(0,100)
+b = random.randint(0,100)
+c = a + b
+jawaban = (int(input('{} + {} ='.format(a,b))))
+if jawaban == c :
+    benar +=1 
+else :
+    benar+= 0
+
+a = random.randint(0,100)
+b = random.randint(0,100)
+c = a + b
+jawaban = (int(input('{} + {} ='.format(a,b))))
+if jawaban == c :
+    benar +=1 
+else :
+    benar+= 0
+
+a = random.randint(0,100)
+b = random.randint(0,100)
+c = a + b
+jawaban = (int(input('{} + {} ='.format(a,b))))
+if jawaban == c :
+    benar +=1 
+else :
+    benar+= 0
+
+nilai = benar*25
+print('nilai murid : {}'.format(nilai))
+
+if nilai < 60 :
+    print('tidak lulus')
+elif nilai <= 100 and nilai >= 60 :
+    print('lulus')
